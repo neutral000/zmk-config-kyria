@@ -4,7 +4,6 @@ name: Kyria
 type: shield
 url: https://github.com/neutral000/zmk-config-kyria/
 requires: [nice!nano]
-exposes: [uart]
 features:
   - keys
 siblings:
