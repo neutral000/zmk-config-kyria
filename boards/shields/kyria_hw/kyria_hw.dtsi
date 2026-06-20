@@ -51,6 +51,14 @@
             bias-pull-up;
         };
     };
+
+    uart0_sleep: uart0_sleep {
+        group1 {
+            psels = <NRD_PSEL(UART_TX, 0, 6)>,
+                    <NRF_PSEL(UART_RX, 0, 8)>;
+            low-power-enable;
+        };
+    };
 };
 
 &uart0 {
@@ -58,5 +66,6 @@
     status = "okay";
     current-speed = <115200>;
     pinctrl-0 = <&uart0_default>;
-    pinctrl-names = "default";
+    pinctrl-1 = <&uart0_sleep>;
+    pinctrl-names = "default", "sleep";
 };
