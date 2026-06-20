@@ -3,5 +3,3 @@ name: zmk-keyboard-kyria
 build:
   settings:
     board_root: .
-    cmake: .
-    kconfig: .
