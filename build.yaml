@@ -20,6 +20,6 @@
 ---
 include:
   - board: nice_nano
-    shield: kyria_left
+    shield: kyria_hw_left
   - board: nice_nano
-    shield: kyria_right
+    shield: kyria_hw_right
