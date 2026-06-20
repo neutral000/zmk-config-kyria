@@ -1,4 +1,4 @@
-#include "kyria.dtsi"
+#include "kyria_hw.dtsi"
 
 &kscan0 {
     col-gpios

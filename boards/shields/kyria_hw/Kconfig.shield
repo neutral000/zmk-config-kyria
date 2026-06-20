@@ -1,0 +1,5 @@
+config SHIELD_KYRIA_HW_LEFT
+    def_bool $(shields_list_contains,kyria_hw_left)
+
+config SHIELD_KYRIA_HW_RIGHT
+    def_bool $(shields_list_contains,kyria_hw_right)

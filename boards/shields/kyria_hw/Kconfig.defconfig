@@ -1,4 +1,4 @@
-if SHIELD_KYRIA_LEFT
+if SHIELD_KYRIA_HW_LEFT
 
 config ZMK_KEYBOARD_NAME
     default "Kyria"
@@ -8,7 +8,7 @@ config ZMK_SPLIT_ROLE_CENTRAL
 
 endif
 
-if SHIELD_KYRIA_LEFT || SHIELD_KYRIA_RIGHT
+if SHIELD_KYRIA_HW_LEFT || SHIELD_KYRIA_HW_RIGHT
 
 config ZMK_SPLIT
     default y
