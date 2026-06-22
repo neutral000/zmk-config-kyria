@@ -7,5 +7,5 @@ requires: [nice_nano]
 features:
   - keys
 siblings:
-  - kyria_left
-  - kyria_right
+  - kyria_hw_left
+  - kyria_hw_right
