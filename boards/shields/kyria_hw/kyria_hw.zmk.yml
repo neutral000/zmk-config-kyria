@@ -3,7 +3,7 @@ id: kyria_hw
 name: Kyria HW
 type: shield
 url: https://github.com/neutral000/zmk-config-kyria/
-requires: [nice!nano]
+requires: [nice_nano]
 features:
   - keys
 siblings:
